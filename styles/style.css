@@ -82,26 +82,42 @@
   border: solid 1px #ba0505
 }
 .description {
-  border: solid 1px #ba0505;
+}
+.two-columns {
   margin: 0;
   padding: 0;
   margin-top: 100px;
-}
-.two-columns {
+  margin-bottom: 100px;
   border: solid 1px #ba0505;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 .two-columns__brief {
   border: solid 1px #ba0505;
   display: flex;
+  width: 175px;
+  color:  #2f80ed;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
 }
 .two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
   border: solid 1px #ba0505;
   display: flex;
+  flex-direction: column;
+
 }
 .two-columns__paragraph {
   border: solid 1px #ba0505;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+.two-colums__span-accent {
+  font-weight: 600;
 }
 
 
