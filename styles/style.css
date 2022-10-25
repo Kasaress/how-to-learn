@@ -99,23 +99,19 @@
   flex-direction: column;
   margin: auto;
   width: 80%;
-  /* border: #ed2f3f solid 1px; */
 }
 .cards {
   margin: 0 auto;
   padding: 0;
   width: 920px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
-  /* border: #0c3265 solid 1px; */
+  column-gap: 100px
 }
 .cards__item {
   list-style-type: none;
-  /* border: #2f80ed solid 1px; */
   width: 240px;
-  margin-bottom: 0px;
 }
 .cards__image {
   width: 160px;
@@ -136,15 +132,15 @@
   text-align: center;
 }
 .video {
-  padding: 100px 0;
-  margin: auto;
+  padding: 0;
+  margin: 0 auto;
   width: 80%;
-  border: #ed2f3f solid 1px;
 }
 .video__iframes {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  max-height: 250px;
 }
 .video__iframe {
   margin-right: 20px;
@@ -155,12 +151,16 @@
 .oakley {
   display: flex;
   justify-content: center;
+  background-color: #f2f2f2;
 }
 .two-columns {
   margin: 0;
   width: 80%;
   display: flex;
   justify-content: space-between;
+}
+.two-columns_oakly {
+  padding-top: 160px;
 }
 .two-columns__brief {
   margin: 0;
@@ -323,17 +323,24 @@
 }
 
 .khan {
-  width: 80%;
-  margin: auto;
+  margin: 0;
   background-color: #f2f2f2;
 }
-.khan__container {}
+.khan__container {
+  margin: 0 auto;
+  padding-top: 105px;
+  width: 80%;
+}
 .khan__author {
+  margin: 0;
+  padding: 0;
   font-size: 30px;
   font-weight: normal;
   line-height: 42px;
 }
 .khan__title {
+  margin: 0;
+  padding: 0;
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
@@ -364,6 +371,9 @@
 .khan__book-pic {
   width: 608px;
   height: 620px;
+  margin-right: 48px;
+  object-fit: none;
+  object-position: top left;
 }
 .khan__buy-link {
   font-size: 30px;
@@ -377,7 +387,23 @@
 .khan__buy-link:hover {
   opacity: .7;
 }
+.resources {
+  margin-top: 100px;
+  /* display: flex; */
 
+}
+.resources__logo-zone {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 80px auto 217px;
+  width: 1100px;
+  justify-content: space-between;
+}
+.resources__link {
+  width: 380px;
+  height: 210px;
+}
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
