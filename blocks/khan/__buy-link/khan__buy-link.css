@@ -4,6 +4,7 @@
   line-height: 42px;
   color: #2f80ed;
   text-decoration: none;
+  align-self: flex-start;
   opacity: 1;
   transition: opacity .5s ease;
 }
