@@ -5,5 +5,5 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  column-gap: 100px
+  column-gap: 100px;
 }
